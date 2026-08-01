@@ -1,8 +1,23 @@
 aid: plusdental
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plusdental.png
 name: PlusDental
-description: 'PlusDental is a company surfaced as a portfolio company of hv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: healthcare; consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'PlusDental was a Berlin-based direct-to-consumer orthodontic company offering clear
+  dental aligners ("Zahnschiene") for teeth straightening, backed by HV Capital. The brand has since
+  been migrated to DR SMILE (operated by Sunshine Smile GmbH); plusdental.com now serves a handover
+  notice redirecting customers to DR SMILE customer service. This is a consumer healthcare service with
+  no public developer program, API, SDKs, or technical integration surface. Added to the API Evangelist
+  network as a portfolio-lead stub; the enrichment pipeline confirmed no API artifacts exist.'
 url: https://raw.githubusercontent.com/api-evangelist/plusdental/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +27,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Healthcare; Consumer
+- Healthcare
+- Consumer
+- Dental
+- Orthodontics
+- Aligners
+- Direct-to-Consumer
+common:
+- type: Website
+  url: https://www.plusdental.com
+- type: Website
+  name: DR SMILE (successor brand)
+  url: https://www.drsmile.de
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
